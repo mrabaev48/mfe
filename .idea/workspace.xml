@@ -2,18 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f30d329-b0d2-41d8-9f03-4a4f2b4c44fa" name="Changes" comment="Deploy config &amp; script">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/auth.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.github/workflows/marketing.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/container/src/components/DashboardApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/config/webpack.common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/config/webpack.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/config/webpack.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/src/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/src/components/Dashboard.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/dashboard/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/config/webpack.common.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/config/webpack.common.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/config/webpack.dev.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/config/webpack.prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/src/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/src/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/src/components/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/src/components/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/auth/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/auth/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/config/webpack.dev.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/config/webpack.dev.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/config/webpack.prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/config/webpack.prod.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/container/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/packages/container/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dashboard/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/dashboard/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/packages/dashboard/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -51,21 +54,22 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.github/workflows" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/packages/dashboard/src/components" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/packages/dashboard/src/components" />
+      <recent name="$PROJECT_DIR$/packages/dashboard/src" />
+      <recent name="$PROJECT_DIR$/packages/dashboard" />
       <recent name="$PROJECT_DIR$/.github/workflows" />
       <recent name="$PROJECT_DIR$/packages" />
-      <recent name="$PROJECT_DIR$/packages/auth" />
-      <recent name="$PROJECT_DIR$/packages/auth/src/components" />
-      <recent name="$PROJECT_DIR$/packages/auth/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -82,7 +86,7 @@
       <workItem from="1631540506219" duration="6228000" />
       <workItem from="1631606991504" duration="787000" />
       <workItem from="1631608762580" duration="6737000" />
-      <workItem from="1631685477746" duration="23643000" />
+      <workItem from="1631685477746" duration="27239000" />
     </task>
     <servers />
   </component>
